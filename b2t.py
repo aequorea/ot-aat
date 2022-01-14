@@ -133,9 +133,7 @@ with open(input_file) as f:
 # This is pretty cheesy. It sort of works. 
 # If I had been more careful defining the markup language it would work better.
 # Good enough for now?
-# We really need to scan line by line to get the verses and the mode switching
-# working properly. As it is, the verses get no additional indentation.
-# I also can't easily solve Haggai 15b chapter 2 on page 1593.
+
 # That said, this method is ridiculously fast, but horribly ugly. It's brand new 
 # but already rotten. I don't want to change anything because, like I say,
 # it sort of works.
