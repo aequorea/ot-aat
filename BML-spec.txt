@@ -50,6 +50,7 @@ These can do whatever special formatting that might be needed for the text.
 /    page header
 //    frugal header - fewer line feeds
 \    page footer - may be blank - forces a page break
+\\   frugal footer - fewer line feeds - may be blank - forces a page break
 
 Character markup
 ----------------
