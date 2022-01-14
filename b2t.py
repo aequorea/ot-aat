@@ -1,6 +1,6 @@
 #!/bin/python3
 
-# b2t.py -- BML to text (2021-12-30)
+# b2t.py -- BML to text (2022-1-14)
 #           version 1 -- doesn't quite work, but almost...
 #                        it'll have to do for now.
 #
