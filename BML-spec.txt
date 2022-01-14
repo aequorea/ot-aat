@@ -1,0 +1,65 @@
+BML - Markup language
+=====================
+Our input text is preformatted by line.
+Paragraph, indexing and single line markup tokens are at the start of a line.
+Blank lines when needed may be in the input text.
+
+Paragraph markup
+----------------
+These are mode switchers and can terminate themselves or each other. 
+For best results, put an extra token at the end of file.
+
+`  preformatted text - don't make room for verse numbers (appendix+footnotes)
++  paragraph of normal text      - first line indented 4
+>  paragraphs of verse           - indented 6
+<  end of verses - continue paragraph mode - when we don't start a fresh 
+                   paragraph after the verses
+
+Indexing markup
+---------------
+Formats a line and can make an entry into an index. Verse and chapter markers
+and numbers may appear inside paragraph or single line formatting markers, and
+they may also appear inside verse numbers.
+
+~  verse   - prefix the number   - need not be at the beginning of a line
+)  chapter - number may be bold  - paragraph mode - first line indented 4
+                                   abbreviation for +]
+]  chapter - number may be bold  - no indentation - preserve current mode
+}  book    - bold text centered  - paragraph mode
+}} frugal book - fewer line feeds
+
+Single line markup
+------------------
+Must appear at the beginning of the line.
+These interrupt the current mode for one line.
+
+>>   verse continuation line         - indented 8 or 10 (not consistent)
+>>>  line of superindented verse     - indented 24
+>>>> superindented continuation line - indented 26
+
+#    small text centered (if available)
+##   regular text centered
+###  bold text centered (and/or larger if available)
+
+___  (triple space) widen line -- move right side to right margin
+
+Headers and footers
+-------------------
+These can do whatever special formatting that might be needed for the text.
+
+/    page header
+//    frugal header - fewer line feeds
+\    page footer - may be blank - forces a page break
+
+Character markup
+----------------
+Use in pairs - may start in middle of a line and cross line boundaries.
+These do not nest well.
+
+^    small caps
+*    bold (could be red)
+_    italics
+
+Lord and God
+------------
+If LORD or GOD are in all caps, render in small caps if available.
