@@ -1,7 +1,7 @@
 # ot-aat
 Old Testament -- An American Translation
 
-This was originally published in 1927 went public domain Jan 1, 2022. So I wanted to post a text.
+This was originally published in 1927 and went public domain Jan 1, 2022. So I wanted to post a text.
 
 I used the scans on archive.org. Mainly I used scans from the School of Theology at Claremont found here:
 
