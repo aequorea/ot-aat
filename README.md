@@ -13,6 +13,6 @@ https://archive.org/details/in.ernet.dli.2015.153322
 
 I did OCR with Tesseract 4.0. I used a couple of custom text models and some custom image processing.
 
-The text file OT_aat.txt uses a fair number of unicode characters so the font you use to display it can matter. I'm using Cousine, and I used it to generate the pdf file OT_aat.pdf. Considering it is a monospace font it has pretty decent Hebrew characters. It also has huge quotation marks which makes proofreading a lot easier. So yeah, don't expect the text file to look right in github's online text viewer. Right off the bat, the macron characters I'm using for underlining look like little dashes. They should be connected. So for best results, install Cousine and use it in your text editor, or just read the pdf file.
+The text file OT_aat.txt uses a fair number of unicode characters so the font you use to display it can matter. I'm using Cousine, and I used it to generate the pdf file OT_aat.pdf. Considering it is a monospace font it has pretty decent Hebrew characters. It also has huge quotation marks which make proofreading a lot easier. So yeah, don't expect the text file to look right in github's online text viewer. Right off the bat, the macron characters I'm using for underlining look like little dashes. They should be connected. So for best results, install Cousine and use it in your text editor, or just read the pdf file.
 
 Thanks!!
