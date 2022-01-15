@@ -1,5 +1,5 @@
 # ot-aat
-Old Testament -- An American Translation
+The Old Testament -- An American Translation
 
 This was originally published in 1927 and went public domain Jan 1, 2022. So I wanted to post a text.
 
